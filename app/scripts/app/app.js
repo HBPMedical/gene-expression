@@ -43,10 +43,10 @@ angular
     'chuvApp.components.filters',
     'chuvApp.components.criteria',
     //ui modules
+    'chuvApp.gene-expression',
     'chuvApp.header',
     'chuvApp.home',
     'chuvApp.hbpapps',
-    'chuvApp.myapp',
     'chuvApp.articles',
     'chuvApp.users',
     'chuvApp.requests',

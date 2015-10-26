@@ -96,7 +96,7 @@ module.exports = function (grunt) {
       livereload: {
         options: {
           open: {
-            target: 'http://localhost:9002/#/hbpapps/myapp'
+            target: 'http://localhost:9002/#/hbpapps/gene-expression'
           },
           middleware: function (connect) {
             return [
