@@ -113,7 +113,7 @@ def main():
 angular.module('chuvApp.'''+APP_ID+'''\', ['ngResource','ui.router'])
 .config(['$stateProvider', function ($stateProvider) {
     $stateProvider
-    .state('myapp', {
+    .state(\''''+APP_ID+'''\', {
         url: '/hbpapps/'''+APP_ID+'''',
         templateUrl: 'scripts/app/'''+APP_ID+'''/index.html',
         controller:\''''+APP_ID+'''Controller'
